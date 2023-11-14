@@ -1,0 +1,41 @@
+1. How do you assess the statistical significance of an insight?
+
+To asses if the statistical significance is a real phenomenon or if it has occured by chance, we need to follow the steps as given:
+Define the hypotheses, i.e., Null or ALternative Hypothesis
+Choose the probability that the null hypothesis is rejected when it is true(alpha).
+Calculate a statistical test and compute the statistic
+Find p-value, the probability of the result being extreme, more extreme than the observed result if the null hypothesis is true. If the p-value is less than or equal to the alpha, then we reject the null hypothesis.
+On comparing the p-value and alpha, if p-value is lesser than alpha, then the result is tatistically significant. Or, if the p-value is greater than or equal to null hypothesis, then the result is not statistically not significant.
+
+2. What is the Central Limit Theorem? Explain it. Why is it important?
+
+When given a large sample size, the distibution of the sample mean will be normally distibuted, irrespective of the population distribution. It makes statistical iniferences about populations with given sample statistics.
+
+It is important as the normal distribution is understood well for the statistical analysis and hypothesis testing to perform well. Statistical approaches like confidence intervals and hypothesis tests depend on the assumption of this normal distribution. 
+
+3. What is the statistical power?
+
+
+Statistical power is a concept in statistics that measures the ability of a statistical test to detect a true effect or difference when it exists in the population. It is a probability that a statistical test will correctly reject a false null hypothesis. 
+
+4. How do you control for biases?
+
+Randomization:
+
+Random assignment of participants to different groups helps distribute potential confounding variables evenly across groups, reducing the impact of biases.
+
+Random Sampling:
+
+Random sampling of participants from the population helps ensure that the sample is representative, reducing selection biases.
+
+5. What are confounding variables?
+
+These are additional variables that are not the focus of the experiment but are related to both the independent and dependent variables. They can create a false impression of a relationship between the IV and DV or mask a true relationship.
+
+6. What is A/B testing?\
+
+This testing is used to compare the performance of different models of algorithms. It executes 2 models at a time and compares their outcomes.
+
+7. What are confidence intervals?
+
+Confidence intervals are a statistical concept used to estimate the range in which a population parameter, such as a mean or proportion, is likely to fall. It provides a range of values within which we are reasonably confident that the true parameter value exists. Confidence intervals are commonly associated with a level of confidence, typically expressed as a percentage (95% confidence interval).
